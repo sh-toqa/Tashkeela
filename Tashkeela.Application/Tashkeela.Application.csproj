@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Use cases. References EF Core's core package (DbSet, async LINQ) but not a database provider. -->
+  <ItemGroup>
+    <ProjectReference Include="..\Tashkeela.Domain\Tashkeela.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" />
+  </ItemGroup>
+</Project>

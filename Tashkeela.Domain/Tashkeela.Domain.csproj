@@ -1,0 +1,3 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Business rules only. No package references: the domain doesn't know about EF Core or HTTP. -->
+</Project>

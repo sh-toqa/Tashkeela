@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="Tashkeela.API/Tashkeela.API.csproj" />
+  <Project Path="Tashkeela.Application/Tashkeela.Application.csproj" />
+  <Project Path="Tashkeela.Domain/Tashkeela.Domain.csproj" />
+  <Project Path="Tashkeela.Infrastructure/Tashkeela.Infrastructure.csproj" />
+  <Folder Name="/tests/">
+    <Project Path="tests/Tashkeela.IntegrationTests/Tashkeela.IntegrationTests.csproj" />
+    <Project Path="tests/Tashkeela.UnitTests/Tashkeela.UnitTests.csproj" />
+  </Folder>
+</Solution>
